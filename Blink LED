@@ -1,0 +1,12 @@
+void setup() {
+  // set digital pin D5 to operate as an output
+  pinMode(5, OUTPUT);
+}
+
+// This function continuously executes in a loop
+void loop() {
+  digitalWrite(5, HIGH); // switch the LED on
+  delay(500);             // pause for 500 milliseconds
+  digitalWrite(5, LOW);  // switch the LED off
+  delay(500);             // pause for 500 milliseconds
+}
